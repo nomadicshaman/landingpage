@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+   
+}
+
+
+.header2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+.awesome {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
