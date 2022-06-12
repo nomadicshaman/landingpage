@@ -1,42 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+
+    font-family: sans-serif;
+    
 }
 
 .hero {
     background-color: #1F2937;
     
+    
 }
 
 .header1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px 35px;
 }
 
 ul {
     display: flex;
     gap: 24px;
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style: none;
    
 }
 
 
 .header2 {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    flex-direction: ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
 }
 
 
+img {
+    max-height: 100%;
+}
 
+.right {
+    width: 288px;
+    height: 300px;
+    border-style: solid;
+    border-width: 5px;
+    
+    
+}
 
-
-
-
+.left {
+    width: 400px;
+    
+}
 
 
 .awesome {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    text-align: center;
+}
+
+
+.headerlogo {
+    color: #f9faf8;
+    font-size: 18px;
+    
+}
+
+
+
+button {
+    background-color: #4073ff;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+
+.main {
+    background-color: white;
+    padding: 32px;
+    
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    border-style: solid;
+    height: 300px;
+    width: fit-content;
+    border-width: 6px;
+}
+
+.random {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    
+
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 1000px;
+    
+
+}
+
+.quoter {
+    text-align: right;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.contact {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
