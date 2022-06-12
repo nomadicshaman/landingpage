@@ -15,7 +15,6 @@ body {
 .hero {
     background-color: #1F2937;
     
-    
 }
 
 .header1 {
@@ -23,6 +22,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 35px;
+    background-color: #1f2937;
+    position: fixed;
+    width: 100%;
+    
+
 }
 
 ul {
@@ -31,6 +35,7 @@ ul {
     font-size: 18px;
     color: #e5e7eb;
     list-style: none;
+    margin-right: 75px;
    
 }
 
@@ -42,6 +47,7 @@ ul {
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: center;
+    padding-top: 20px;
 }
 
 
