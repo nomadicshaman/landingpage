@@ -9,12 +9,12 @@ body {
     margin: 0;
 
     font-family: sans-serif;
-    
+
 }
 
 .hero {
     background-color: #1F2937;
-    
+
 }
 
 .header1 {
@@ -25,7 +25,7 @@ body {
     background-color: #1f2937;
     position: fixed;
     width: 100%;
-    
+
 
 }
 
@@ -36,7 +36,7 @@ ul {
     color: #e5e7eb;
     list-style: none;
     margin-right: 75px;
-   
+
 }
 
 
@@ -60,13 +60,13 @@ img {
     height: 300px;
     border-style: solid;
     border-width: 5px;
-    
-    
+
+
 }
 
 .left {
     width: 400px;
-    
+
 }
 
 
@@ -81,7 +81,7 @@ img {
 .headerlogo {
     color: #f9faf8;
     font-size: 18px;
-    
+
 }
 
 
@@ -103,7 +103,7 @@ button:hover {
 .main {
     background-color: white;
     padding: 32px;
-    
+
 }
 
 .images {
@@ -136,7 +136,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     padding: 32px;
-    
+
 
 }
 
@@ -145,7 +145,7 @@ button:hover {
     font-style: italic;
     color: #1f2937;
     width: 1000px;
-    
+
 
 }
 
